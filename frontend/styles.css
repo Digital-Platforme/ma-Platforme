@@ -1,0 +1,113 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #004d00; /* Vert Foncé */
+    color: white;
+    padding: 20px;
+}
+
+.header-container {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .navbar li {
+        display: inline;
+        margin-right: 15px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+    }
+
+.main-title {
+    font-size: 24px;
+}
+
+.main-button {
+    background-color: #004d00; /* Vert Foncé */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+    .main-button:hover {
+        background-color: #003300; /* Vert Plus Foncé */
+    }
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004d00; /* Vert Foncé */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Ajout de media queries pour rendre le site responsive */
+@media (max-width: 768px) {
+    .navbar {
+        display: block;
+        text-align: center;
+    }
+
+        .navbar li {
+            display: block;
+            margin: 10px 0;
+        }
+
+    .main-button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .header-container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 20px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    h2, h3 {
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
